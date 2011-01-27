@@ -58,12 +58,6 @@
 	<logger name="org.hibernate.validator.engine.resolver.DefaultTraversableResolver">
 		<level value="warn" />
 	</logger>
-	<!-- p6spy -->
-	<logger name="p6spy">
-		<level value="info" />
-		<!-- <appender-ref ref="console"/> -->
-		<appender-ref ref="file_local"/>
-	</logger>
 	<!-- LOGGERY END -->
 
 	<!-- ROOT LOGGER -->
