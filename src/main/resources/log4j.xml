@@ -15,7 +15,7 @@
 	<!-- wyjscie do pliku loga -->
 	<appender name="file_all" class="org.apache.log4j.DailyRollingFileAppender">
 		<!-- sciezka do pliku loga -->
-		<param name="File" value="${catalina.home}/logs/gpg.log" />
+		<param name="File" value="dbtester.log" />
 		<!-- dodawaj do pliku (przeciwienstwo: truncate) -->
 		<param name="Append" value="true" />
 
@@ -27,14 +27,15 @@
 			<param name="ConversionPattern" value="%d %-5p %c{2} - %m%n" />
 		</layout>
 	</appender>
-	<!-- plik lokalny -->
+	<!-- plik lokalny
 	<appender name="file_local" class="org.apache.log4j.FileAppender">
-		<param name="File" value="p6spy.log" />	<!-- w katalogu eclipsa -->
+		<param name="File" value="p6spy.log" />
 		<param name="Append" value="true" />
 		<layout class="org.apache.log4j.PatternLayout">
 			<param name="ConversionPattern" value="%d P6SPY : %m%n" />
 		</layout>
 	</appender>	
+	-->
 	<!-- APPENDERY END -->
 
 	<!-- LOGGERY -->
