@@ -24,7 +24,7 @@
 		<repository>
 			<id>marioosh repo</id>
 			<name>marioosh repo</name>
-			<url>http://test2.marioosh.net/m2/repository/</url>
+			<url>http://maven.marioosh.net/repository/</url>
 		</repository>
 	</repositories>
 	<dependencies>
