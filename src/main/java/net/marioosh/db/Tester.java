@@ -1,3 +1,5 @@
+package net.marioosh.db;
+
 import java.sql.*;
 import org.apache.log4j.Logger;
 
