@@ -33,6 +33,10 @@
 						<configuration>
 							<mainClass>net.marioosh.db.Tester</mainClass>
 							<arguments>
+								<!-- postgresql -->
+								<argument>jdbc:postgresql://localhost/template1</argument>
+								<argument>postgres</argument>
+								<argument></argument>
 							</arguments>
 						</configuration>
 					</execution>
@@ -64,6 +68,11 @@
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.13</version>
+		</dependency>
+		<dependency>
+			<groupId>postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>9.0-801.jdbc4</version>
 		</dependency>
 	</dependencies>
 </project>
