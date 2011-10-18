@@ -38,7 +38,7 @@ public class Tester {
 
 	public Tester() {
 		try {
-			log.debug("Connecting...");
+			log.info("Connecting...");
 			
 			/**
 			 * H2
@@ -61,9 +61,9 @@ public class Tester {
 			Connection conn = DriverManager.getConnection(url, username, password);
 			
 			DatabaseMetaData db = conn.getMetaData();
-			log.debug("DB product name: " + db.getDatabaseProductName());			
-			log.debug("DB major version: " + db.getDatabaseMajorVersion());
-			log.debug("DB minor version: " + db.getDatabaseMinorVersion());
+			log.info("DB product name: " + db.getDatabaseProductName());			
+			log.info("DB major version: " + db.getDatabaseMajorVersion());
+			log.info("DB minor version: " + db.getDatabaseMinorVersion());
 
 			conn.close();
 		} catch (ClassNotFoundException e) {
